@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>write a program to get a random item from the array</title>
+</head>
+
+<body>
+    <script>
+        function randomItem(arr) {
+
+            // get random index value
+            const randomIndex = Math.floor(Math.random() * arr.length);
+
+            // get random item
+            const item = arr[randomIndex];
+
+            return item;
+        }
+
+        const array = [14, "hello", 35, 88,"SNTPS"];
+
+        const result = randomItem(array);
+        document.write(result);
+    </script>
+
+</body>
+
+</html>

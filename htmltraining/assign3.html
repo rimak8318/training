@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first_news img{
+            width: 250px;
+            height: 150px;
+            margin-right: 100px;
+            float: left;
+            border: 2px solid black;
+            border-radius:2px;
+        }
+
+
+        .second_news img{
+            width: 250px;
+            height: 150px;
+            margin-left: 100px;
+            float: right;
+            margin-bottom: 50px;
+            border: 2px solid black;
+            border-radius:2px;
+        }
+
+       .second_news p{
+            margin-left: 30px;
+            
+        
+        }
+
+         div.mainDiv {
+            display: flex;
+            flex-direction: row;
+            
+         }
+        div.events {
+  			margin: 5px;
+  			/* width: 33.3%; */
+  			border: 2px solid #ccc;
+  			float: left;
+            display: flex;
+            flex-direction: row;
+  		}
+
+  		div.events:hover {
+  			border: 2px solid #777;
+  		}
+
+  		div.events img {
+  			/* width: 100%; */
+            
+  			height: auto;
+  		}
+
+  		div.desc {
+  			padding: 15px;
+  			text-align: center;
+  		}
+
+        .newsdown{
+            width: 100%;
+            margin-left: 220px;
+            margin-top: 30px;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <fieldset>
+    <section>
+        <figure class="first_news">
+            <img src="https://www.goodnewsnetwork.org/wp-content/uploads/2020/07/tiger-in-India-pubdomain-Vincent-van-Zalinge.jpg">
+        </figure>
+        <article class="first_news">
+            <p> India is home to more wild tigers than any other country—around 70% of the world’s total.
+            New tallies from the country’s 2018 tiger survey (called the All India Tiger Estimation) demonstrate a stable or growing population, 
+            estimated at 2,967 individuals, bringing hope for the species’ recovery.
+            The survey—supported by WWF and conducted by India’s National Tiger Conservation Authority, the Wildlife Institute of India, and state 
+            forest departments—is India’s most extensive to date; it covered nearly 150,000 square miles of forested habitats in 20 Indian states. 
+            Camera traps deployed at more than 26,000 locations resulted in 76,651 photographs used to identify individual cats.
+            These results reflect India’s leadership in tiger conservation. WWF continues to work with governments, local communities, and partners to
+             conserve and connect habitats,
+             build strong political will and sustained investments, and gain public support for tiger conservation.</p>
+        </article><br><br><hr>
+        
+    </section>
+    
+    <section>
+        <figure class="second_news">
+            <img src="https://img.etimg.com/thumb/msid-92858504,width-300,imgsize-30816,,resizemode-4,quality-100/delhis-air-quality-deteriorates-to-very-poor-to-get-worse.jpg">
+        </figure>
+        <article class="second_news">
+            <p>
+            New Delhi: For the second consecutive year, New Delhi has been ranked the world's most polluted capital city, followed by Dhaka (Bangladesh), N'Djamena (Chad), Dushanbe (Tajikistan) and Muscat (Oman). 
+            The 2021 World Air Quality Report revealed these facts. The survey of pollution data in 6,475 cities also showed that not a single country managed to meet the World Health Organization's (WHO) air quality standard in 2021, 
+            and smog even rebounded in some regions after a Covid-related dip. Only the territories of New Caledonia, US Virgin Islands and Puerto Rico met the updated WHO PM2.5 air quality guidelines.
+            Bangladesh topped the list of worlds most polluted countries while Chad came second. India was ranked fifth most polluted country in the world say reports.
+            The WHO recommends that average annual readings of small and hazardous airborne particles known as PM2.5 should be no more than 5 micrograms per cubic metre after changing its guidelines last year, 
+            saying that even low concentrations caused significant health risks. But only 3.4% of the surveyed cities met the standard in 2021, according to data compiled by IQAir, a Swiss pollution technology company that monitors air quality. 
+            As many as 93 cities saw PM2.5 levels at 10 times the recommended level.</p>
+
+        </article><br><hr>
+
+    </section>
+
+    <section class="newsdown">
+    <div class="mainDiv">
+        <div class="events">
+            <a href="https://timesofindia.indiatimes.com/city/lucknow/a-sapling-each-by-all-can-save-environment/articleshow/91901291.cms">
+                <img src="https://as2.ftcdn.net/v2/jpg/01/64/13/89/1000_F_164138924_Dvscri6AAvpVd0V2KpvtSQvSeVvXp4Is.jpg" width="250px" height="180px">
+            </a>
+            <div class="desc"> Save Environment </div>
+        </div>
+        <div class="events">
+            <a href="https://educationtoday.co/blogs/?p=13057">
+                <img src="https://bhartiyamschoolgnoida.com/wp-content/uploads/2018/04/zx.png" width="250px" height="150px">
+            </a>
+            <div class="desc"> Environment Education </div>
+        </div>
+        <div class="events">
+            <a href="https://www.who.int/news/item/04-04-2022-health-and-the-environment">
+                <img src="https://previews.123rf.com/images/ongkachakon/ongkachakon1702/ongkachakon170200093/72101232-landscape-beautiful-long-perspective-rubber-trees-forest.jpg" width="250px" height="200px">
+            </a>
+            <div class="desc"> Healthy Environment </div>
+        </div>
+    </div>
+</section>
+    
+</fieldset>
+    
+</body>
+</html>
