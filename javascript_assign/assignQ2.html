@@ -1,0 +1,30 @@
+<!--  Q2.JavaScript Program to Display the Multiplication Table -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function multiplication() {
+            var m = document.getElementById('number').value;
+            var n = document.getElementById('multiplier').value;
+            var out = "";
+            for (var i = 1; i <= n; i++) {
+                out = out + i + " * " + m + " = " + i * m + "<br/>";
+            }
+            document.getElementById("result").innerHTML = out;
+        }
+    </script>
+    Enter a number:
+    <input type="text" id="number" /><br /><br />
+    Enter limit:
+    <input type="text" id="multiplier" />
+    <input type="button" value="Find" onClick="multiplication()" />
+    <p id="result"></p>
+</body>
+</html>
